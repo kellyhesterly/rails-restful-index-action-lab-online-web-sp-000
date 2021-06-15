@@ -5,7 +5,6 @@ class Student < ActiveRecord::Base
   end
 
   def index
-    @students = Student.all
   end
 
 end
